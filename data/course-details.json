@@ -10,6 +10,15 @@
 
       },
       {
+        "id": "02",
+        "name": "calligraphy",
+        "image":"https://i.ibb.co/PGDMrPB/caliography.png",
+        "duration": 4,
+        "fee": 50,
+        "instructor": "Mustofa Kamal Emon",
+        "details": "We love being able to share our passion for calligraphy through comprehensive online courses that include individualized feedback and community! Creative Calligraphy Course is a comprehensive step-by-step online program for beginners, to kickstart their modern calligraphy journey.Signature Styles is an intermediate calligraphy course for developing your own calligraphy style.The Invitation Design Bootcamp is our masterclass design program for creating wedding invitations from start to finish. This is perfect for calligraphers /letterers who want to become invitation designers. The Islamic Calligraphy is our all-in-one   masterclass course, created by a calligrapher for calligraphers. It covers the foundations of starting a calligraphy from concept to launch."
+      },
+      {
         "id": "03",
         "name": "Fikhul Hazz",
         "image":"https://i.ibb.co/pZ27g8R/Hazz.jpg",

@@ -9,7 +9,7 @@ const categories = require('./data/course-category.json');
 const course = require('./data/course-details.json')
 
 app.get('/', (req, res) => {
-  res.send('Ilm Center api is running!')
+  res.send('Ilm Center api is  running!')
 })
 app.get('/categories', (req, res) => {
   res.send(categories)
