@@ -11,11 +11,19 @@ const course = require('./data/course-details.json')
 app.get('/', (req, res) => {
   res.send('Ilm Center api is  running!')
 })
+
 app.get('/categories', (req, res) => {
   res.send(categories)
 })
+
 app.get('/course', (req, res) => {
   res.send(course)
+})
+
+app.get('/course/:id', (req,res) =>{
+  const id = req.params.id;
+  const selectedNews = course.find(n => n.id ===id);
+  res.send(selectedNews)
 })
 
 app.listen(port, () => {
